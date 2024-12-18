@@ -2,7 +2,7 @@
 
 # DriveGazen: Event-Based Driving Status Recognition using Conventional Camera
 Xiaoyin Yang
-[[paper]( https://do1511)] [[dataset](https://www.kaggle.com/datasets/tooyoungalex/drivegaze/)]
+[[paper]( [https://do1511](https://arxiv.org/abs/2412.11753#))] [[dataset](https://www.kaggle.com/datasets/tooyoungalex/drivegaze/)]
 
 <img width="100%" src="https://github.com/TooyoungALEX/AAAI25-DriveGazen/blob/main/image/dvs.png"></a>
 We introduce a novel wearable prototype for driver status recognition, which can effectively estimate the driver's status under challenging lighting conditions. We investigated recognition based on input from conventional cameras. Conventional cameras have high resolution, captured frames can robustly encode spatial information. However, parsing temporal cues is challenging. We introduce DriveGazen, a learning-based novel solution for extracting informative temporal cues for status recognition. DriveGazen introduces several novel design components: a method for generating DVS event frames from video frames，a spatial feature extractor based on multi-scale self-attention,a CNN-SNN-based temporal feature extractor and guide attention mechanism. Leveraging spatial awareness and the pulse mechanism of SNN to effectively provide discriminative features for classification. Spatial attention is injected into temporal feature extraction during both training and inference stages. Our extensive experimental results demonstrate that DriveGazen can effectively estimate driver status at any stage. To the best of our knowledge, DriveGazen is the first attempt to utilize conventional camera-generated events and guided attention SNN for driving status recognition tasks.
